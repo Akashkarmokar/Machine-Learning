@@ -26,3 +26,21 @@ The K-nearest neighbors algorithm for regression is implemented in the kNeighbor
 You can find code here -> https://github.com/Akashkarmokar/Machine-Learning/blob/main/Supervised%20Learning/K-Nearest%20Neighbors/K-neighbors%20regression.ipynb
 
 
+# Analyzing KNeighborsRegressor
+
+For our one dimensional dataset, we can see what  the prediction look like for all possible feature values. To do this , we can create a test dataset consisting of many points on the line.
+
+
+You can find code here : https://github.com/Akashkarmokar/Machine-Learning/blob/main/Supervised%20Learning/K-Nearest%20Neighbors/Analyzing_kNeighborsRegressor.ipynb
+
+
+
+
+# Strength , Weakness, and parameters
+
+* In practice, using a small number of neighbors like three or five often works well, but you should certainly adjust the parameter
+  By default, Euclidean distance is used, when works well in many settings.
+* This approach often does not perform well on datasets with many features (Hundreds or more) and it does particularly badly with datasets 
+  where many features are 0 most of the time(So called sparse datasets)
+
+
