@@ -7,3 +7,22 @@ Instead of considering only the closest neighbor, we can also consider an arbitr
 
 Now let's look at how we can apply the k-nearest neighbors algorithm using scikit-learn.First,we split out data into a training and test set so wen can evaluate generalization performance.
 see the -->>     k-NN with two-class classification dataset (forge dataset) file in the above.
+
+
+
+
+# K-Neighbors Regression
+
+There are also a regression variant of the k-nearest algorithm. Again, let's start by using the single nearest neighbor, this time using the
+wave dataset. We've added the test data points as green stars on the x-axis.The prediction using a single neighbor is just the target value of
+the nearest neighbor.There are shown as blue stars.
+
+Again, we can use more than the single closest neighbor neighbor for regression.
+* when using multiple nearest neighbors, the prediction is the average, or mean, of the relevant neighbors.
+
+
+The K-nearest neighbors algorithm for regression is implemented in the kNeighborsRegressor class in Scikit-learn. It's used similarly to Kneighbors classifier.
+
+You can find code here -> https://github.com/Akashkarmokar/Machine-Learning/blob/main/Supervised%20Learning/K-Nearest%20Neighbors/K-neighbors%20regression.ipynb
+
+
